@@ -9,9 +9,10 @@ See [SKILLS.md](./SKILLS.md) for a description of every available skill.
 ## Installation
 
 > [!IMPORTANT]
-> These skills follow the open Agent Skills format and can be installed
+> * These skills follow the open Agent Skills format and can be installed
 > with the `skills` CLI on supported coding agents.
-> Replace `codex` with your agent's name. See [Supported Agents](https://github.com/vercel-labs/skills?utm_source=chatgpt.com#supported-agents)
+> * Replace `codex` with your agent's name.
+> * See [Supported Agents](https://github.com/vercel-labs/skills?utm_source=chatgpt.com#supported-agents)
 
 ### Install all skills globally
 
