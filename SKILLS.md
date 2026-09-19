@@ -2,7 +2,7 @@
 
 This document provides a quick overview of every skill available in this repository.
 
-For installation instructions, see the main [README.md](./README.md).
+For installation instructions, see the main [README.md](./README.md#install-all-skills-globally).
 
 ---
 
