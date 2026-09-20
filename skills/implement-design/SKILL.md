@@ -23,6 +23,16 @@ Match spacing, sizing, typography, alignment, colors, borders, radius, shadows, 
 
 Prefer Tailwind when the project already uses Tailwind. Do not introduce a parallel styling system. Avoid arbitrary absolute positioning, screenshot-sized containers, and unexplained magic numbers when existing utilities or tokens can express the same design.
 
+When multiple screenshots are provided for the same viewport,
+treat them as sequential sections of the same page.
+
+Use overlapping content to determine section continuity.
+
+Use the overview image to understand the global composition and
+the section screenshots for implementation detail.
+
+Do not interpret each screenshot as a separate screen in these cases.
+
 ## Existing components
 
 When modifying an existing component:
