@@ -1,0 +1,6 @@
+interface:
+  display_name: "Handoff"
+  short_description: "Create development handoff"
+
+policy:
+  allow_implicit_invocation: false

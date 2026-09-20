@@ -188,6 +188,26 @@ blast-radius
 spec
 ```
 
+## Important: explicit-only skills
+
+Some skills such as `ship`, `implement-feature`, `frontend-feature`, and `integrate-api` execute large multi-step workflows.
+
+every explicit-only skill have `agents/openai.yaml` with:
+
+```yaml
+policy:
+  allow_implicit_invocation: false
+```
+
+This keeps those workflow skills available only when explicitly called:
+
+```text
+$ship
+$implement-feature
+$frontend-feature
+$integrate-api
+```
+
 ## Contributing
 
 This repository primarily contains opinionated engineering workflows that I use personally.

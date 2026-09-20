@@ -1,0 +1,6 @@
+interface:
+  display_name: "Frontend Feature"
+  short_description: "Run full frontend workflow"
+
+policy:
+  allow_implicit_invocation: false

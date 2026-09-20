@@ -1,0 +1,6 @@
+interface:
+  display_name: "Checkpoint"
+  short_description: "Create safe local checkpoint"
+
+policy:
+  allow_implicit_invocation: false

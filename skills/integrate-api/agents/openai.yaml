@@ -1,0 +1,6 @@
+interface:
+  display_name: "Integrate API"
+  short_description: "Run full API integration"
+
+policy:
+  allow_implicit_invocation: false

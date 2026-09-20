@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ship"
+  short_description: "Run final pre-ship checks"
+
+policy:
+  allow_implicit_invocation: false
