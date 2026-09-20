@@ -1,6 +1,6 @@
 ---
 name: ship
-description: Perform a final pre-ship engineering pass on the current change: inspect the diff, remove accidental leftovers, run appropriate validation, check regression/security basics, and prepare commit and PR text. Use when implementation is believed complete and the user wants it ready to hand off or merge. Do not push or merge automatically.
+description: "Perform a final pre-ship engineering pass on the current change: inspect the diff, remove accidental leftovers, run appropriate validation, check regression/security basics, and prepare commit and PR text. Use when implementation is believed complete and the user wants it ready to hand off or merge. Do not push or merge automatically."
 ---
 
 # Ship
