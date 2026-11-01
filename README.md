@@ -18,7 +18,7 @@ See [SKILLS.md](./SKILLS.md) for a description of every available skill.
 
 ```bash
 npx skills@latest add korefs/skills \
-  --skill '*' \
+  --skill * \
   --agent codex \
   --global \
   --yes
@@ -27,14 +27,14 @@ npx skills@latest add korefs/skills \
 Short version:
 
 ```bash
-npx skills@latest add korefs/skills -s '*' -a codex -g -y
+npx skills@latest add korefs/skills -s * -a codex -g -y
 ```
 
 ### Multiple agents
 
 ```bash
 npx skills@latest add korefs/skills \
-  --skill '*' \
+  --skill * \
   --agent codex \
   --agent claude-code \
   --global
